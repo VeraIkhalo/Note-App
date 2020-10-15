@@ -1,0 +1,42 @@
+body{display:flex;
+justify-content:center;
+align-items:center;
+padding-top:50px;
+flex-wrap:wrap;
+background-color:#4e67bd;}
+
+.note{width:250px;
+height:250px;
+background-color:#eee;
+margin:20px;}
+
+.tools{display:flex;
+justify-content:flex-end;
+width:100%;
+background-color:hsl(200 20% 50%);}
+
+.note textarea{
+outline:none;
+width:250px;
+height:250px;
+}
+
+.note .main{
+overflow:hidden;
+width:250px;
+height:250px;
+}
+
+.note .hidden{display:none;
+     }
+
+#add {
+    background-color: #fff8b7;
+    border-radius: 3px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+	position:fixed;
+	top:1rem;
+	right:1rem;}
